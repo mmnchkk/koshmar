@@ -1,0 +1,24 @@
+.similar {
+    background-color: rgba(245, 245, 245, 1);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+}
+
+.similar-wrap {
+    width: 1070px;
+}
+
+.similar-wrap h2 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 17px;
+}
+
+.similar-cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}

@@ -1,0 +1,39 @@
+.GoodHandsLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 104px;
+    color: black;
+}
+
+.GoodHandsLeft-wrap {
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    margin-top: 50px;
+}
+
+.img-people-left {
+    position: absolute;
+    margin-top: 200px;
+}
+
+.GoodHandsLeft-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 760px;
+}
+
+.GoodHandsLeft-text h2{
+    font-size: 50px;
+    line-height: 59px;
+}
+
+.GoodHandsLeft-texttt {
+    width: 428px;
+    font-size: 20px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0 30px;
+}

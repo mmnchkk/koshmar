@@ -1,0 +1,37 @@
+.GoodHandsRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin: 112px 0 150px;
+}
+
+.GoodHandsRight-wrap {
+    display: flex;
+    align-items: center;
+    width: 1070px;
+}
+
+.img-people {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -13px;
+}
+
+.GoodHandsRight-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.GoodHandsRight-text h2 {
+    font-size: 50px;
+    line-height: 59px;
+}
+
+.GoodHandsRight-texttt {
+    width: 428px;
+    font-size: 20px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0 30px;
+}

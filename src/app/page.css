@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    font-family: "DM Sans", sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+.orange {
+    color: rgba(255, 172, 18, 1);
+}
+
+.btn-orange {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    background-color: rgba(255, 172, 18, 1);
+    border-radius: 0px 18px 0px 0px;
+    outline: none;
+    border: none;
+    width: 211px;
+    height: 70px;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    font-family: "DM Sans", sans-serif;
+    transition: all 0.3s;
+}
+
+.btn-orange:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 18px;
+}
+
+.btn-black {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px 18px 0px 0px;
+    outline: none;
+    border: none;
+    width: 209px;
+    height: 70px;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-family: "DM Sans", sans-serif;
+    transition: all 0.3s;
+}
+
+.btn-black:hover {
+    cursor: pointer;
+    border-radius: 0px 0px 0px 18px;
+}
+
+.line-cards {
+    width: 169px;
+    height: 4px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    border-radius: 100px;
+    margin-bottom: 17px;
+}

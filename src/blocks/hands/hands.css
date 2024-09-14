@@ -1,0 +1,38 @@
+.hands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+    height: 674px;
+    width: 100%;
+}
+
+.hands-line {
+    width: 169px;
+    height: 4px;
+    background: linear-gradient(90deg, #FFAC12 0%, rgba(0, 0, 0, 0.000001) 74.96%);
+    border-radius: 100px;
+}
+
+.hands, .hands-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hands-wrap h3 {
+    font-size: 50px;
+    line-height: 58.59px;
+    color: #fff;
+}
+
+.hands-text {
+    width: 458px;
+    height: 168px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(151, 151, 151, 1);
+}

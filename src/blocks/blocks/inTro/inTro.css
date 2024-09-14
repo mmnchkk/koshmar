@@ -1,0 +1,38 @@
+.inTro {
+    height: 228px;
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
+}
+
+.inTro-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 114px;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.inTro-wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 1070px;
+}
+
+.inTro-left h2, .inTro-right h2 {
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.inTro-left p, .inTro-right p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff38;
+}
+
+.inTro-right {
+    text-align: right;
+}
